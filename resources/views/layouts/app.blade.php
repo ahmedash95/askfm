@@ -73,12 +73,7 @@
         <div class="content-element">
             @yield('content')
             <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Your Friends</div>
-
-                    <div class="panel-body">
-                    </div>
-                </div>
+                @include('navbar')
             </div>
         </div>
     </div>
